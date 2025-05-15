@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_animalNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_animalName",
+						"type": "string"
+					}
+				],
+				"name": "addAnimal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAnimal",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "animalNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "animalName",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Animal.Animals[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfAnimals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "animalNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "animalName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Animal.sol": "Animal"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Animal.sol": {
+			"keccak256": "0x5c32dedf20168172e42c694afd1bd6991742ad0f0c0c7945c86eca9a75c09bc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf9bd98f94c86f8c3d19f24e58c042be50e125611894fd95e66c8819e904e918",
+				"dweb:/ipfs/QmbVgE3y37pEMEF4KBi634JA6DNitbuBTKpVQ1DfHT7Shf"
+			]
+		}
+	},
+	"version": 1
+}
