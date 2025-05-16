@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/animalfactory/Cow.sol": "C"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/animalfactory/Cow.sol": {
+			"keccak256": "0xf29eef82b2f3d200d349b2e6459c54d83d1da8614508f19b5026553cf3f9154f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6dd25830012d199af6d6da4808eb33fede783e4146e07d1b89c3462d8f1d541c",
+				"dweb:/ipfs/QmZvtBGExRQqVpjJR1SEbtdZcQUU15KDnWqjxedDGPXMRx"
+			]
+		}
+	},
+	"version": 1
+}

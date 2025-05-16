@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/AnimalFactory.sol": "Birds"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/AnimalFactory.sol": {
+			"keccak256": "0xdfc7cabb2cad9aaa0e3af99e4689ddf026375325ae335f39ff09897ec42cfc0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13e9e76317fae0d401140905675ba6d74bb3919ecb3d445570a04cea7ecc8cd4",
+				"dweb:/ipfs/Qme9Vsh55VrDzxZrhZ8yUR7B9egx71n3h6k9P5U2ZKH2JW"
+			]
+		}
+	},
+	"version": 1
+}

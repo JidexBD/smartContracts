@@ -1,0 +1,186 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_species",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cowNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "createBird",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_birdNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "createCow",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getBird",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getCow",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfBirdsContracts",
+				"outputs": [
+					{
+						"internalType": "contract Birds",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfCowsContracts",
+				"outputs": [
+					{
+						"internalType": "contract Cows",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/animalfactory/AnimalFactory.sol": "AnimalFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/animalfactory/AnimalFactory.sol": {
+			"keccak256": "0x2d9706181db3a0587a8e85b95fcfdddf14bcaf449d37e9eaf19a3593b377366b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b4f6b40e643700c783e6933910829053ca399003964c222caf1b42f06f4609d",
+				"dweb:/ipfs/QmbiKdT6tpmGxforCpVrBVwkzKpBpovcpKPFAUWVJkmjZA"
+			]
+		},
+		"Contracts/animalfactory/Bird.sol": {
+			"keccak256": "0xe9e875ad81c5817c0cada985af506d68f8a036b9880242ce7d08ff203fe4eecc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2cbde0907ab8bb6edbd991b13b98c652a85ed8e1fa49424cdd2fead934fb089e",
+				"dweb:/ipfs/QmSeG4Wcz8JUpyRev4HqvnrwTt6LkrRaA7L61LWewd5sat"
+			]
+		},
+		"Contracts/animalfactory/Cow.sol": {
+			"keccak256": "0x84e5097f53936fc3918623bbdca4b501ca08ed595abe2a250e97fb84b8bbef3a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59ae470519033d2958058924a4c0acc90f41815d561c0eb47b164cae0a5d501e",
+				"dweb:/ipfs/QmWtumbhKfEfFK2uCdG4ErCsMWg3oHUtJHv5gCFLgjPmT3"
+			]
+		}
+	},
+	"version": 1
+}

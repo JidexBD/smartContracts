@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/animalfactory/Brid.sol": "B"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/animalfactory/Brid.sol": {
+			"keccak256": "0xc035223103d2777a8ab9d614536b60a89748da0b5dfc208f001fbf6fe4dad4f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9524f8673dc9196aeae20fb62bbb6040c6b8b522af8e86dfca592f8764813366",
+				"dweb:/ipfs/QmTtG3ucrmwrhzA7zqVab2QMcD8HZMetnpxcjQ8pwNUswb"
+			]
+		}
+	},
+	"version": 1
+}

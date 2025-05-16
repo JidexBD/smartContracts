@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_species",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cowNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "cowNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "species",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/animalfactory/Bird.sol": "Birds"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/animalfactory/Bird.sol": {
+			"keccak256": "0xe9e875ad81c5817c0cada985af506d68f8a036b9880242ce7d08ff203fe4eecc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2cbde0907ab8bb6edbd991b13b98c652a85ed8e1fa49424cdd2fead934fb089e",
+				"dweb:/ipfs/QmSeG4Wcz8JUpyRev4HqvnrwTt6LkrRaA7L61LWewd5sat"
+			]
+		}
+	},
+	"version": 1
+}

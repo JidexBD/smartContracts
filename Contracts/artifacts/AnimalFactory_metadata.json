@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/AnimalFactory.sol": "AnimalFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/AnimalFactory.sol": {
+			"keccak256": "0x273aea91ca2aafec0d8af1582e05bd391a4a31590bafb598151c5d9fe2a48e52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3eb0fda5525ebae2e77993071577e27a181c40b490ed3da493648bb94dea55aa",
+				"dweb:/ipfs/Qmda25gDmXNuXcs22Ub6otsHArHevsozM1jvKcW6XMVSrc"
+			]
+		}
+	},
+	"version": 1
+}
