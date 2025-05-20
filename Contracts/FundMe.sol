@@ -9,7 +9,7 @@ contract FundMe {
     using PriceConverter for uint256;
 
      //minimum usd we want our senders to send 
-    uint256 public minimumUSD = 5e18;
+    uint256 public constant MINIMUMUSD = 5e18;
 
     //array of users that sent us eth or funded us
     address [] public funders;
@@ -19,22 +19,28 @@ contract FundMe {
     //mapping point an address to the amount funded.so we can know who sent what amount
     mapping (address funder => uint256 amountFunded ) public addressToAmountFunded;
 
-    address public owner; 
-
+    address public immutable i_owner; 
 
     //to make sure only owner can withdraw funds
     constructor () {
-        owner = msg.sender;
+        i_owner = msg.sender;
     }
+    //custom error 
+    error NotOwner();
 
+    //modifier to check if sender is owner with custom error added
     modifier onlyOwner( ){
-        require(msg.sender == owner,"Only owner can withdraw funds!");
+        if (msg.sender != i_owner) {
+        revert NotOwner();
+        }
         _;
     }
 
+  
+
     //function to send or fund our muminimum of 5usd to our contract 
     function fund() public payable {
-        require (msg.value.getConversionRate() >= minimumUSD, "You need to send at least 5 eth");
+        require (msg.value.getConversionRate() >= MINIMUMUSD, "You need to send at least 5 eth");
 
         addressToAmountFunded[msg.sender]  += msg.value;
     }
@@ -55,4 +61,12 @@ contract FundMe {
         require(callSuccess , "call Failed" );
 
     }
+
+     receive() external payable {
+            fund();
+        }
+
+    fallback() external payable {
+        fund();
+        }
 }
