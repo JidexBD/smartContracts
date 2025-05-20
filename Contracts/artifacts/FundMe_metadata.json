@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -51,51 +56,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVersion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getprice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "minimumUSD",
 				"outputs": [
@@ -103,6 +63,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -152,11 +125,19 @@
 			]
 		},
 		"Contracts/FundMe.sol": {
-			"keccak256": "0xd5d7feae8a4a05dca763ca074109624e09c5eac8f0f4bfe6f33802785ec4b688",
+			"keccak256": "0x01f10915d41b3fb51b28a72819fef64bc4eb258600bd92266fc8f80316bb9ccc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d6ea4483d416ffbecf196361bd64daf7e21f6af322099e081730713700d1aaa6",
-				"dweb:/ipfs/QmVWrW8AKX227KMdio3zrqxwAGqw1iR12FAfa9SNn6iwrH"
+				"bzz-raw://e0a4337ed0847b94297d2ba8daf08be020e184d729bf5ebd89df09bf614e45c0",
+				"dweb:/ipfs/QmfQ2X6zgpq8hHkgGvBozs3h3ciGAxS8z42GJHwP9466rz"
+			]
+		},
+		"Contracts/PriceConverter.sol": {
+			"keccak256": "0xa39e69e14aa334ba267ea6d31d6f2a0d23e0a4784103098e10e1acf97b59f690",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2b321949f90f8a927088a0b367eed8578aa989ce4e08af86008b94198a55afc",
+				"dweb:/ipfs/QmcNUVE2E5ek4GHo3qBBxdLGXHGmWAvUgCP3SxFncrC2bF"
 			]
 		}
 	},
