@@ -8,7 +8,7 @@ contract FundMe {
     //this is to attach the function in our price converter  to all unit256
     using PriceConverter for uint256;
 
-     //minimum usd we want our senders to send 
+    //minimum usd we want our senders to send 
     uint256 public constant MINIMUMUSD = 5e18;
 
     //array of users that sent us eth or funded us
