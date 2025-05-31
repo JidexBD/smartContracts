@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/SimplePiggy.sol": "SimplePiggy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/SimplePiggy.sol": {
+			"keccak256": "0x232ab990b84b6ee4cbe1e466dac23b98db9721b5db4b924a7215b3a7bab5b348",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9235500d209e75bc8e6e7eb6249c06744e68bcd9bcdfb3caed97270decbf7ac",
+				"dweb:/ipfs/QmQ58oAQowxcARHMb5Bsgk8ZYuj5qtCBg4Q9Xv4xtxwUoS"
+			]
+		}
+	},
+	"version": 1
+}
